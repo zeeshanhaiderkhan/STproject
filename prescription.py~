@@ -1,0 +1,13 @@
+class Prescription:
+    def __init__(self,title,date,data):
+        self.title= title
+        self.date= date
+        self.data =data
+
+    def getTitle(self):
+        return self.title
+    def getDate(self):
+        return self.date
+    def getData(self):
+        return self.data
+
